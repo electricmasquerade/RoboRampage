@@ -3,10 +3,11 @@ class_name Enemy
 
 
 const SPEED = 5.0
-const JUMP_VELOCITY = 4.5
+
 
 @onready var navigation_agent_3d: NavigationAgent3D = $NavigationAgent3D
-@onready var animation_player: AnimationPlayer = $AnimationPlayer
+@onready var animation_tree: AnimationTree = $AnimationTree
+@onready var playback: AnimationNodeStateMachinePlayback = animation_tree["parameters/playback"]
 
 @export var attack_range := 5.0
 @export var max_hitpoints := 100
@@ -50,7 +51,7 @@ func _physics_process(delta: float) -> void:
 		provoked = true
 	
 	if distance <= attack_range and provoked:
-		animation_player.play("attack")
+		playback.travel("attack")
 
 	
 	if direction:
@@ -69,5 +70,5 @@ func look_at_target(direction: Vector3) -> void:
 	look_at(global_position + adjusted_direction, Vector3.UP, true)
 
 func attack() -> void:
-	print("Attack!")
+	#print("Attack!")
 	player.hitpoints -= attack_damage

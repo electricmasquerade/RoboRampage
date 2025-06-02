@@ -33,11 +33,12 @@ func shoot() -> void:
 		ammo_handler.use_ammo(ammo_type)
 		cooldown_timer.start(1/fire_rate)
 		weapon_mesh.position.z += recoil
-		printt("Fire!", ray_cast_3d.get_collider())
+		#printt("Fire!", ray_cast_3d.get_collider())
 		muzzle_flash.restart()
 		var collider = ray_cast_3d.get_collider()
-		if collider is Enemy:
-			collider.hitpoints -= weapon_damage
-		var spark = sparks.instantiate()
-		add_child(spark)
-		spark.global_position = ray_cast_3d.get_collision_point()
+		if ray_cast_3d.is_colliding():
+			if collider is Enemy:
+				collider.hitpoints -= weapon_damage
+			var spark = sparks.instantiate()
+			add_child(spark)
+			spark.global_position = ray_cast_3d.get_collision_point()
