@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjraponcfr20c"
 path.s3tc="res://.godot/imported/prototype-texture-with-size.png-91bf2ac8c5e92268297d3c73e3c4bcb2.s3tc.ctex"
+path.etc2="res://.godot/imported/prototype-texture-with-size.png-91bf2ac8c5e92268297d3c73e3c4bcb2.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Assets/Materials/PrototypeTextures/prototype-texture-with-size.png"
-dest_files=["res://.godot/imported/prototype-texture-with-size.png-91bf2ac8c5e92268297d3c73e3c4bcb2.s3tc.ctex"]
+dest_files=["res://.godot/imported/prototype-texture-with-size.png-91bf2ac8c5e92268297d3c73e3c4bcb2.s3tc.ctex", "res://.godot/imported/prototype-texture-with-size.png-91bf2ac8c5e92268297d3c73e3c4bcb2.etc2.ctex"]
 
 [params]
 

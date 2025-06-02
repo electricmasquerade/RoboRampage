@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://db2tpnnagmbol"
 path.s3tc="res://.godot/imported/Container_Palette-Base-SF.png-53f2778fb4a3de40b5c179cb5b5c0a41.s3tc.ctex"
+path.etc2="res://.godot/imported/Container_Palette-Base-SF.png-53f2778fb4a3de40b5c179cb5b5c0a41.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Assets/Models/Props/Container_Palette-Base-SF.png"
-dest_files=["res://.godot/imported/Container_Palette-Base-SF.png-53f2778fb4a3de40b5c179cb5b5c0a41.s3tc.ctex"]
+dest_files=["res://.godot/imported/Container_Palette-Base-SF.png-53f2778fb4a3de40b5c179cb5b5c0a41.s3tc.ctex", "res://.godot/imported/Container_Palette-Base-SF.png-53f2778fb4a3de40b5c179cb5b5c0a41.etc2.ctex"]
 
 [params]
 

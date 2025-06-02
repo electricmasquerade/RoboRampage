@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dh1kekrwbsxog"
 path.s3tc="res://.godot/imported/level-floorplan.png-d47632bff03763ecf3108888f07eb933.s3tc.ctex"
+path.etc2="res://.godot/imported/level-floorplan.png-d47632bff03763ecf3108888f07eb933.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Levels/level-floorplan.png"
-dest_files=["res://.godot/imported/level-floorplan.png-d47632bff03763ecf3108888f07eb933.s3tc.ctex"]
+dest_files=["res://.godot/imported/level-floorplan.png-d47632bff03763ecf3108888f07eb933.s3tc.ctex", "res://.godot/imported/level-floorplan.png-d47632bff03763ecf3108888f07eb933.etc2.ctex"]
 
 [params]
 

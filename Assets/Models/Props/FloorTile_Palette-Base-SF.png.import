@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3450ffsivkfb"
 path.s3tc="res://.godot/imported/FloorTile_Palette-Base-SF.png-233dcc7a3549b3ec0dfa656db3f97345.s3tc.ctex"
+path.etc2="res://.godot/imported/FloorTile_Palette-Base-SF.png-233dcc7a3549b3ec0dfa656db3f97345.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Assets/Models/Props/FloorTile_Palette-Base-SF.png"
-dest_files=["res://.godot/imported/FloorTile_Palette-Base-SF.png-233dcc7a3549b3ec0dfa656db3f97345.s3tc.ctex"]
+dest_files=["res://.godot/imported/FloorTile_Palette-Base-SF.png-233dcc7a3549b3ec0dfa656db3f97345.s3tc.ctex", "res://.godot/imported/FloorTile_Palette-Base-SF.png-233dcc7a3549b3ec0dfa656db3f97345.etc2.ctex"]
 
 [params]
 

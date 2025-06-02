@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ndyci4eo1j8q"
 path.s3tc="res://.godot/imported/Floor_Palette-Base-SF.png-408f5ae8abfd1f51ed3e499ad7095b16.s3tc.ctex"
+path.etc2="res://.godot/imported/Floor_Palette-Base-SF.png-408f5ae8abfd1f51ed3e499ad7095b16.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Assets/Models/Props/Floor_Palette-Base-SF.png"
-dest_files=["res://.godot/imported/Floor_Palette-Base-SF.png-408f5ae8abfd1f51ed3e499ad7095b16.s3tc.ctex"]
+dest_files=["res://.godot/imported/Floor_Palette-Base-SF.png-408f5ae8abfd1f51ed3e499ad7095b16.s3tc.ctex", "res://.godot/imported/Floor_Palette-Base-SF.png-408f5ae8abfd1f51ed3e499ad7095b16.etc2.ctex"]
 
 [params]
 

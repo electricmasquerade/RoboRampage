@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxcy2h6lefagi"
 path.s3tc="res://.godot/imported/Screen_Palette-Base-SF.png-5d6802922117bd9e8146b990925fbade.s3tc.ctex"
+path.etc2="res://.godot/imported/Screen_Palette-Base-SF.png-5d6802922117bd9e8146b990925fbade.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Assets/Models/Props/Screen_Palette-Base-SF.png"
-dest_files=["res://.godot/imported/Screen_Palette-Base-SF.png-5d6802922117bd9e8146b990925fbade.s3tc.ctex"]
+dest_files=["res://.godot/imported/Screen_Palette-Base-SF.png-5d6802922117bd9e8146b990925fbade.s3tc.ctex", "res://.godot/imported/Screen_Palette-Base-SF.png-5d6802922117bd9e8146b990925fbade.etc2.ctex"]
 
 [params]
 
